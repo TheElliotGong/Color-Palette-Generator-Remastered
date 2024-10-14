@@ -1,0 +1,22 @@
+{
+  "name": "coolors-clone",
+  "version": "1.0.0",
+  "description": "A conversion of my current Color Palette Generator to incorporate the MERN stack and additional features of the Coolors.io website.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app/js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "chroma-js": "^3.1.2",
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "express-session": "^1.18.1",
+    "mongoose": "^8.7.1"
+  }
+}
